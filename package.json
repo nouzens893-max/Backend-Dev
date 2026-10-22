@@ -1,0 +1,19 @@
+{
+  "name": "inventaris-api",
+  "version": "1.0.0",
+  "description": "REST API inventaris barang sekolah menggunakan Node.js, Express, dan MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/no-13.test.js",
+    "test:mysql": "node test/mysql-integration.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  }
+}
